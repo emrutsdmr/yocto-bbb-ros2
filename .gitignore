@@ -1,32 +1,32 @@
-# Prerequisites
-*.d
+# Yocto build artifacts
+build/
+tmp/
+sstate-cache/
+cache/
+downloads/
+deploy/
+work/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Logs and temporary files
+*.log
+*.lock
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~undo-tree~
+*.backup
+tags
+session.vim
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore ctags files
+tags
+TAGS
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Ignore Git submodule metadata
+yocto/.git
+meta-ros/.git
+meta-myrobot/.git
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app

@@ -1,5 +1,10 @@
+# Build artifacts (located under sources/)
+sources/tmp/
+sources/sstate-cache/
+sources/downloads/
+
 # Yocto build artifacts
-build/
+yocto/build/
 tmp/
 sstate-cache/
 cache/

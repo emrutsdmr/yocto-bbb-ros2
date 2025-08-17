@@ -1,6 +1,12 @@
 [submodule "meta-ros"]
 	path = meta-ros
 	url = https://github.com/ros/meta-ros.git
+	branch = scarthgap
 [submodule "yocto"]
 	path = yocto
 	url = https://github.com/yoctoproject/poky.git
+	branch = scarthgap
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = scarthgap
